@@ -14,10 +14,8 @@
 <link rel="stylesheet" href="assets/css/main.css" id="changeTheme">
 <!-- Extra CSS -->
 <link rel="stylesheet" href="assets/css/theme.css?ver=1930">
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Anek+Odia:wght@200&family=Lobster&family=Nunito:wght@300;400&display=swap" rel="stylesheet">
 
-
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&display=swap" rel="stylesheet">
 
 
 
@@ -75,7 +73,7 @@
                                         <div class="banner-caption wide-auto text-center text-lg-left">
                                             <div class="cpn-head mt-0">
                                                 <h1 class="title title-semibold text-center animated" data-animate="fadeInUp" data-delay="0.9"  style="color:yellow;
-                                                font-family:slidefu; ">The Golden Dog <br><span> $GOLD </span></h1>
+                                                font-family: 'Cormorant SC', serif; ">The Golden Dog <br><span> $GOLD </span></h1>
                                             </div>
                                          
                                             <div class="cpn-btns text-center animated" data-animate="fadeInUp" data-delay="1" >
@@ -107,7 +105,7 @@
                             <div class="col-sm-12 col-md-12 text-center">
                                 <!-- Section Head @s -->
                                 <div class="nk-block-text" style="display: flex;justify-content: center;">
-                                    <h4 class="title title-lg text-center animated" data-animate="fadeInUp" data-delay="1"  style="font-family: slidefu;width: 75%;text-align: center;">  <span style="font-size: 2.2rem;color:yellow"> The Golden Dog</span> is here to dig the gold</h4>
+                                    <h4 class="title title-lg text-center animated" data-animate="fadeInUp" data-delay="1"  style="font-family: 'Cormorant SC', serif;width: 75%;text-align: center;">  <span style="font-size: 2.2rem;color:yellow;font-weight: 900;"> The Golden Dog</span> is here to dig the gold</h4>
                                  
                                 </div>
                             </div>
@@ -123,13 +121,13 @@
                 <div class="container">
                     <div class="section-head text-center tc-light">
                         <h2 class="title animated" data-animate="fadeInUp" data-delay="0.6"   style="color: white; font-size:1.5rem;
-                        font-family:slidefu; color: white;">JAPANESE LORE DESTINE THE DEJITARU TSŪKA DRAGON TO BREATHE VAST FLAMES OF WISDOM AND PROSPERITY TO ALL WHO EMBRACE ITS FEROCITY AND STRENGTH. IT IS THE HARBINGER OF ABUNDANCE AND WEALTH .</h2>
+                        font-family: 'Cormorant SC', serif; color: white;">JAPANESE LORE DESTINE THE DEJITARU TSŪKA DRAGON TO BREATHE VAST FLAMES OF WISDOM AND PROSPERITY TO ALL WHO EMBRACE ITS FEROCITY AND STRENGTH. IT IS THE HARBINGER OF ABUNDANCE AND WEALTH .</h2>
                         <br>
                                 <h2 class="title animated" data-animate="fadeInUp" data-delay="0.7"   style="color: white; font-size:1.5rem;
                              color: white;">JAPANESE LORE DESTINE THE DEJITARU TSŪKA DRAGON TO BREATHE VAST FLAMES OF WISDOM AND PROSPERITY TO ALL WHO EMBRACE ITS FEROCITY AND STRENGTH. IT IS THE HARBINGER OF ABUNDANCE AND WEALTH .</h2>
                                     
                                       <h2 class="title animated" data-animate="fadeInUp" data-delay="0.8"   style="color: white; font-size:2rem;
-                                      font-family:slidefu; color: white;text-align: right;margin-top: 50px;">-THE GOLDEN DOG</h2>
+                                      font-family: 'Cormorant SC', serif; color: white;text-align: right;margin-top: 50px;">-THE GOLDEN DOG</h2>
 
                  
                     </div>
@@ -137,6 +135,621 @@
                    
                     
             </section>
+            <style>
+            .roadmap { position: relative; z-index: 10; padding-bottom: 30px; }
+
+.roadmap-carousel .roadmap { padding-bottom: 0; }
+
+.roadmap-s1:before, .roadmap-s1:after { position: absolute; content: ""; left: -1px; height: 50%; border-left-width: 3px; border-left-style: solid; border-color: #dee2e6; }
+
+.tc-light .roadmap-s1:before, .tc-light .roadmap-s1:after { border-color: black; }
+
+.roadmap-s1:before { height: 45px; top: 0; }
+
+.flex-row-reverse .roadmap-s1:before { right: auto; }
+
+.roadmap-s1:after { height: calc(100% - 45px); right: auto; top: 45px; }
+
+.roadmap-s1-alt:before, .roadmap-s1-alt:after { left: 1px; border-left-width: 1px; border-left-style: dashed; }
+
+.tc-light .roadmap-s1-alt:before, .tc-light .roadmap-s1-alt:after { border-color: rgba(255, 255, 255, 0.3); }
+
+.flex-row-reverse .roadmap-s1-alt:before, .flex-row-reverse .roadmap-s1-alt:after { right: auto; left: 1px; }
+
+.roadmap-s1-alt.roadmap-done:before, .roadmap-s1-alt.roadmap-current:before { top: 0; border-color: black;}
+
+.roadmap-s1-alt.roadmap-done:after, .roadmap-s1-alt.roadmap-current:after { top: 45px; }
+
+.roadmap-s1-alt.roadmap-done:before, .roadmap-s1-alt.roadmap-done:after { left: 0px; border-left-width: 3px; border-left-style: solid; }
+
+.roadmap-s1-alt.roadmap-current:before { left: 0px; border-left-width: 3px; border-left-style: solid; }
+
+.roadmap-s1.roadmap-done:before, .roadmap-s1.roadmap-done:after { border-color: black; }
+
+.roadmap-s1.roadmap-current:before { border-color: black; }
+
+.roadmap-s2 { text-align: center; }
+
+.roadmap-s2:before, .roadmap-s2:after { position: absolute; content: ''; transition: width .3s; }
+
+.roadmap-s2:before { width: 0; height: 4px; background: black; left: 0; top: 55px; }
+
+.tc-light .roadmap-s2:before { background: black; }
+
+.roadmap-s2:after { left: 50%; top: 49px; transform: translateX(-50%); height: 16px; width: 16px; border-radius: 50%; border: 3px solid #dee2e6; background: #fff; }
+
+.tc-light .roadmap-s2:after { border-color: #5b77a3; background: black; }
+
+.roadmap-s2.roadmap-finished:after, .roadmap-s2.roadmap-running:after { background: black; border: 2px solid #000; }
+
+.tc-light .roadmap-s2.roadmap-finished:after, .tc-light .roadmap-s2.roadmap-running:after { background: black; border-color: black; }
+
+.roadmap-s2.roadmap-finished:before { width: 100%; }
+
+.roadmap-s2.roadmap-running:before { width: 50%; }
+
+.roadmap-s2.roadmap-running:after { box-shadow: 0 0 0 12px rgba(255, 108, 63, 0.1); }
+
+.tc-light .roadmap-s2.roadmap-running:after { box-shadow: 0 0 0 12px rgba(255, 255, 255, 0.1); }
+
+.roadmap-s5 { width: 100%; }
+
+.roadmap-s5:last-child { padding-bottom: 30px; }
+
+.roadmap-s6 { padding-top: 65px; margin-top: 15px; }
+
+.roadmap-s6:before { position: absolute; content: ""; top: 0; left: -6px; width: calc(100% + 30px); height: 1px; z-index: 2; background: #fff; border-color: black; }
+
+.roadmap-s6:after { position: absolute; content: ""; top: 0; right: 50%; width: 19px; height: 19px; z-index: 3; border: 1px solid #fff; border-radius: 50%; transform: translate(50%, -50%); background: #fff; }
+
+.tc-light .roadmap-s6:after { background: black; }
+
+.roadmap-s6.roadmap-done:after { font-family: "Font Awesome 5 Free"; content: '\f00c'; font-weight: 700; font-size: 10px; line-height: 17px; text-align: center; color: #fff; background: #39d884; }
+
+.roadmap-s6-1-2:before { background: linear-gradient(90deg, black 0%, #f29e03 100%); border-color: black; }
+
+.roadmap-s6-1-2:after { border-color: #f29e03; }
+
+.roadmap-s6-1-2 .roadmap-head-s6:after { background: #f29e03; }
+
+.roadmap-s6-2-1:before { background: linear-gradient(90deg, #f29e03 0%, black 100%); }
+
+.roadmap-s6-2-1:after { border-color: black; }
+
+.roadmap-s6-2-1 .roadmap-head-s6:after { background: black; }
+
+.roadmap-s6-2-3:before { background: linear-gradient(90deg, #f29e03 0%, #f29e03 100%); border-color: black; }
+
+.roadmap-s6-2-3:after { border-color: #f29e03; }
+
+.roadmap-s6-2-3 .roadmap-head-s6:after { background: #f29e03; }
+
+.roadmap-s6-3-2:before { background: linear-gradient(90deg, #f29e03 0%, #f29e03 100%); }
+
+.roadmap-s6-3-2:after { border-color: #f29e03; }
+
+.roadmap-s6-3-2 .roadmap-head-s6:after { background: #f29e03; }
+
+.roadmap-s6-3-1:before { background: linear-gradient(90deg, #f29e03 0%, black 100%); }
+
+.roadmap-s6-3-1:after { border-color: black; }
+
+.roadmap-s6-3-1 .roadmap-head-s6:after { background: black; }
+
+.roadmap-s6-1-3:before { background: linear-gradient(90deg, black 0%, #f29e03 100%); }
+
+.roadmap-s6-1-3:after { border-color: #f29e03; }
+
+.roadmap-s6-1-3 .roadmap-head-s6:after { background: #f29e03; }
+
+.roadmap-slider { position: relative; }
+
+.roadmap-text { max-width: 265px; margin-left: auto; margin-right: auto; }
+
+.roadmap-wrap { position: relative; padding: 40px 0 10px; margin-bottom: 40px; max-width: 430px; margin-left: auto; margin-right: auto; }
+
+.nk-block-left .roadmap-wrap { margin-left: 0; margin-right: 0; }
+
+.roadmap-wrap:before, .roadmap-wrap:after { position: absolute; content: ''; top: 0; bottom: 0; z-index: 7; }
+
+.roadmap-wrap-ovl-right:after { right: 0; background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, #fff 60%, #fff 100%); }
+
+.bg-light .roadmap-wrap-ovl-right:after { background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(246, 250, 253, 0.8) 25%, #f6fafd 60%, #f6fafd 100%); }
+
+.bg-light-alt .roadmap-wrap-ovl-right:after { background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(255, 245, 246, 0.8) 25%, #fff5f6 60%, #fff5f6 100%); }
+
+.bg-white .roadmap-wrap-ovl-right:after { background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, #fff 60%, #fff 100%); }
+
+.bg-theme .roadmap-wrap-ovl-right:after { background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(254, 67, 80, 0.8) 25%, black 60%, black 100%); }
+
+.bg-theme_alt .roadmap-wrap-ovl-right:after { background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(255, 108, 63, 0.8) 25%, #f29e03 60%, #f29e03 100%); }
+
+.bg-theme-dark .roadmap-wrap-ovl-right:after { background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(54, 8, 11, 0.8) 25%, #36080b 60%, #36080b 100%); }
+
+.bg-theme-dark-alt .roadmap-wrap-ovl-right:after { background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(73, 25, 29, 0.8) 25%, #49191d 60%, #49191d 100%); }
+
+.roadmap-wrap-s1 { padding-bottom: 0; padding-top: 0; max-width: 90%; }
+
+.roadmap-wrap-s5 { display: flex; flex-wrap: wrap; padding: 40px 0 0; }
+
+.roadmap-wrap-s5:before { position: absolute; content: ""; left: 0; width: 1px; height: calc(100% + 30px); background: black; }
+
+.roadmap-line { position: absolute; left: 19px; top: 0; background: #c8cdd3; height: 100%; width: 2px; content: ''; z-index: 9; }
+
+.roadmap-line:after, .roadmap-line:before { position: absolute; background: #c8cdd3; height: 10px; width: 10px; border-radius: 50%; content: ''; left: -4px; }
+
+.roadmap-line:before { top: 0; }
+
+.roadmap-line:after { bottom: 0; }
+
+.tc-light .roadmap-line { background: rgba(255, 255, 255, 0.1); }
+
+.tc-light .roadmap-line:after, .tc-light .roadmap-line:before { background: black; }
+
+.bg-theme-dark .roadmap-line { background: #f29e03; }
+
+.bg-theme-dark .roadmap-line:after, .bg-theme-dark .roadmap-line:before { background: black; }
+
+.bg-theme .roadmap-line { background: #f29e03; }
+
+.bg-theme .roadmap-line:after, .bg-theme .roadmap-line:before { background: black; }
+
+.roadmap-line-s2 { position: absolute; width: 100%; height: 4px; background: #dee2e6; content: ''; top: 95px; border-radius: 2px; left: 0; }
+
+.tc-light .roadmap-line-s2 { background: #5b77a3; }
+
+.roadmap-line-s3:before, .roadmap-line-s3:after { display: none; }
+
+.roadmap-year { border-radius: 50%; color: #fff; background: black; height: 50px; width: 50px; text-align: center; line-height: 50px; font-weight: 700; font-size: 12px; position: relative; left: -5px; }
+
+.tc-light .roadmap-year { background: black; }
+
+.bg-theme .roadmap-year, .bg-theme-dark .roadmap-year { background: black; }
+
+.roadmap-year-s2 { padding-bottom: 65px; }
+
+.roadmap-step { border: 2px solid #dee2e6; border-radius: 5px; position: relative; margin-left: 50px; padding: 20px 20px 15px; position: relative; max-width: 380px; }
+
+.bg-light .roadmap-step { background: #fff; }
+
+.roadmap-step:before, .roadmap-step:after { position: absolute; content: ''; }
+
+.roadmap-step:before { height: 18px; width: 18px; border-radius: 50%; border: 5px solid #fff; background: black; left: -41px; top: 34px; z-index: 1; }
+
+.roadmap-step:after { height: 2px; width: 22px; background: #dee2e6; left: -22px; top: 42px; }
+
+.roadmap-step p:last-child { margin-bottom: 0; }
+
+.roadmap-step-list li:before { background: #415076; }
+
+.tc-light .roadmap-step-list li:before { background: rgba(255, 255, 255, 0.1); }
+
+.roadmap-step-list-s1 li { list-style: none; padding: 8px 0; position: relative; }
+
+.roadmap-step-list-s1 li:after { position: absolute; content: ""; left: 10px; bottom: 0; width: 20px; height: 1px; transform: translateX(-50%); background: currentColor; }
+
+.roadmap-step-list-s1 li:last-child:after { display: none; }
+
+.tc-light .roadmap-step { background: rgba(255, 255, 255, 0.05); border-color: rgba(255, 255, 255, 0.1); }
+
+.tc-light .roadmap-step:before { background: black; }
+
+.tc-light .roadmap-step:after { background: rgba(255, 255, 255, 0.1); border-color: rgba(255, 255, 255, 0.1); }
+
+.bg-theme .roadmap-step, .bg-theme-dark .roadmap-step { background: #49191d; border-color: #f29e03; }
+
+.bg-theme .roadmap-step:before, .bg-theme-dark .roadmap-step:before { background: black; border-color: black; }
+
+.bg-theme .roadmap-step:after, .bg-theme-dark .roadmap-step:after { background: #f29e03; border-color: #f29e03; }
+
+.bg-theme-dark .roadmap-step:before { border-color: #36080b; }
+
+.bg-theme-alt .roadmap-step:before { border-color: #f29e03; }
+
+.bg-light .roadmap-step:before { border-color: #f6fafd; }
+
+.has-bg-image .roadmap-step:before { border-color: transparent; }
+
+.roadmap-step-s1 { margin-left: 0; border: none; padding-top: 0; padding-right: 25px; padding-left: 25px; z-index: 1; max-width: 100%; }
+
+.bg-light .roadmap-step-s1 { background: transparent; }
+
+.bg-theme .roadmap-step-s1, .bg-theme-dark .roadmap-step-s1, .tc-light .roadmap-step-s1 { background: transparent; }
+
+.roadmap-step-s1:before { display: none; }
+
+.roadmap-step-s1:after { width: 38px !important; left: 0 !important; height: 0; top: 49px; z-index: -1; background: none !important; border-top: 1px solid; border-color: #dee2e6; }
+
+.roadmap-s1-alt .roadmap-step-s1:after { border-top-style: dashed; }
+
+.roadmap-step-s3 { margin-left: 0; border: none; padding: 0px 23px 30px; }
+
+.tc-light .roadmap-step-s3 { background: transparent; }
+
+.roadmap-step-s3:before { display: none; }
+
+.roadmap-step-s3:after { height: 60px; left: 50%; width: 2px; top: 75px; }
+
+.roadmap-step-s5 { margin: 0; background-color: transparent !important; border: none; padding-top: 0; padding-bottom: 0; }
+
+.roadmap-step-s5:before, .roadmap-step-s5:after { display: none; }
+
+.roadmap-head { margin-bottom: 10px; padding-right: 35px; position: relative; color: #000; }
+
+.roadmap-finished .roadmap-head:after { position: absolute; right: 0; top: 50%; transform: translateY(-50%); width: 32px; height: 32px; line-height: 32px; border-radius: 50%; text-align: center; color: #fff; background: #f29e03; font-family: "Font Awesome 5 Free"; font-weight: 700; font-size: .88rem; content: '\f00c'; }
+
+.roadmap-head-s1 { padding-right: 0; margin-bottom: 0; line-height: 1.6; }
+
+.roadmap-head-s3 { padding-bottom: 120px; margin-bottom: 0; padding-right: 0; }
+
+.roadmap-head-s5 { padding: 0; }
+
+.roadmap-head-s5:after { display: none; }
+
+.roadmap-head-s6 { padding-left: 0; padding-right: 0; }
+
+.roadmap-head-s6:after { position: absolute; content: ""; bottom: 100%; right: 50%; width: 1px; height: 65px; transform: translate(50%, 0); background: #fff; }
+
+.roadmap-time { display: block; color: black; font-size: 13px; text-transform: uppercase; color: #000; }
+
+.tc-light .roadmap-time { color: black; }
+
+.roadmap-time-s1 { padding-bottom: 27px; line-height: 26px; width: 100%; display: inline-block; font-weight: 700; font-size: 0.81rem; position: relative; color: #8ca2e5; line-height: 25px; }
+
+.roadmap-time-s1:after, .roadmap-time-s1:before { position: absolute; content: ""; left: -24px; border-radius: 50%; }
+
+.roadmap-time-s1:after { bottom: -2px; width: 11px; height: 11px; margin-left: -5.5px; margin-top: -5.5px; background: black; }
+
+.tc-light .roadmap-time-s1:after { background: #000; }
+
+.roadmap-time-s1:before { bottom: -10px; width: 27px; height: 27px; margin-left: -13.5px; margin-top: -13.5px; }
+
+.roadmap-done .roadmap-time-s1:before, .roadmap-current .roadmap-time-s1:before { background: rgba(254, 67, 80, 0.23); }
+
+.tc-light .roadmap-done .roadmap-time-s1:before, .tc-light .roadmap-current .roadmap-time-s1:before { background: rgba(255, 255, 255, 0.1); }
+
+.roadmap-time-s3 { color: #8ca2e5; }
+
+.roadmap-time-s3:before { position: absolute; left: 50%; transform: translateX(-50%); content: '\f1da'; border-radius: 50%; font-family: "Font Awesome 5 Free"; font-weight: 600; box-shadow: 0px 2px 7px 0px rgba(254, 67, 80, 0.1); top: 32px; background: linear-gradient(-90deg, #fff 0%, white 100%); border: 1px solid rgba(254, 67, 80, 0.2); height: 32px; line-height: 32px; width: 32px; color: #8ca2e5; z-index: 1; font-size: 13px; }
+
+.tc-light .roadmap-time-s3:before { color: rgba(255, 255, 255, 0.8); background: linear-gradient(-90deg, black 0%, #fe767f 100%); border-color: rgba(255, 255, 255, 0.2); box-shadow: 0px 2px 7px 0px rgba(255, 255, 255, 0.1); }
+
+.roadmap-done .roadmap-time-s3:before { content: '\f00c'; }
+
+.roadmap-running .roadmap-time-s3:before { content: '\f021'; }
+
+.roadmap-s3-1 .roadmap-time-s3:before { content: ''; background: rgba(254, 67, 80, 0.5); border: none; }
+
+.roadmap-s3-1.roadmap-done .roadmap-time-s3:before { background: rgba(254, 21, 38, 0.5); }
+
+.roadmap-s3-1 .roadmap-time-s3:after { position: absolute; left: 50%; top: 40px; transform: translateX(-50%); border-radius: 50%; content: ''; background: black; height: 16px; width: 16px; }
+
+.roadmap-s3-1.roadmap-done .roadmap-time-s3:after { background: #fe1526; }
+
+.roadmap-time-s5 { font-weight: 600; text-transform: capitalize; font-size: 1rem; color: black; }
+
+.roadmap-time-s5:not(:last-child) { padding-bottom: 10px; }
+
+.roadmap-time-s5:after { position: absolute; height: 19px; width: 19px; border: 1px solid black; background: black; top: 2px; left: -29px; border-radius: 50%; content: ''; }
+
+.roadmap-finished .roadmap-time-s5:after { background: #f6fafd; content: "\f00c"; font-family: "Font Awesome 5 Free"; font-size: 10px; text-align: center; line-height: 18px; color: #f29e03; }
+
+.tc-light .roadmap-finished .roadmap-time-s5:after { color: #f29e03; background: black; }
+
+.roadmap-time-s6 { text-transform: none; }
+
+.roadmap-title { color: #000; font-weight: 700; font-size: 16px; }
+
+.tc-light .roadmap-title { color: #000; }
+
+.roadmap-title-s1 { padding-top: 25px; display: inline-block; font-size: 1rem; font-weight: 500; line-height: 1.6; color: #415076; }
+
+.roadmap-title-s2 { position: relative; font-size: 1rem; font-weight: 500; color: black; top: -10px; }
+
+.tc-light .roadmap-title-s2 { color: rgba(255, 255, 255, 0.8); }
+
+.roadmap-title-s2:before { position: absolute; content: ''; left: -25px; top: 1px; transform: translate(-50%, 0); height: 15px; width: 15px; border-radius: 50%; background: black; border: 1px solid black; }
+
+.roadmap-done .roadmap-title-s2:before { height: 19px; width: 19px; font-family: "Font Awesome 5 Free"; content: '\f00c'; font-weight: 900; font-size: 9px; line-height: 18px; text-align: center; color: #39d884; background: #fff; }
+
+.tc-light .roadmap-done .roadmap-title-s2:before { color: #fff; background: black; }
+
+.bg-theme .roadmap-done .roadmap-title-s2:before { background: black; }
+
+.bg-theme-alt .roadmap-done .roadmap-title-s2:before { background: #f29e03; }
+
+.bg-theme-dark .roadmap-done .roadmap-title-s2:before { background: #36080b; }
+
+.bg-theme-dark-alt .roadmap-done .roadmap-title-s2:before { background: #49191d; }
+
+.roadmap-carousel { padding: 0 40px; }
+
+.roadmap-carousel:after, .roadmap-carousel:before { position: absolute; height: 12px; width: 12px; border-radius: 50%; content: ''; top: 42px; background: #dee2e6; }
+
+.tc-light .roadmap-carousel:after, .tc-light .roadmap-carousel:before { background: #f29e03; }
+
+.roadmap-carousel .owl-nav { position: absolute; left: -30px; top: 23px; font-size: 36px; font-weight: 400; width: calc(100% + 60px); opacity: 0.3; }
+
+.roadmap-carousel .owl-nav .owl-next { right: -30px; }
+
+.roadmap-carousel .owl-nav .owl-prev { left: -30px; }
+
+.roadmap-carousel .owl-nav .owl-next, .roadmap-carousel .owl-nav .owl-prev { top: -30px; position: absolute; z-index: 2; height: 52px; width: 52px; font-size: 36px; line-height: 52px; text-align: center; color: black; transform: translateY(50%); }
+
+.roadmap-carousel:after { right: 0; }
+
+.roadmap-carousel:before { left: 0; }
+
+.roadmap-carousel-s2:after, .roadmap-carousel-s2:before { height: 1px; width: 85px; border-radius: 0; top: 15px; z-index: 4; }
+
+.roadmap-carousel-s2:before { background: linear-gradient(90deg, #fff5f6 0%, rgba(0, 0, 0, 0) 100%); }
+
+.bg-theme .roadmap-carousel-s2:before { background: linear-gradient(90deg, black 0%, rgba(0, 0, 0, 0) 100%); }
+
+.bg-theme-alt .roadmap-carousel-s2:before { background: linear-gradient(90deg, #f29e03 0%, rgba(0, 0, 0, 0) 100%); }
+
+.bg-theme-dark .roadmap-carousel-s2:before { background: linear-gradient(90deg, #36080b 0%, rgba(0, 0, 0, 0) 100%); }
+
+.bg-theme-dark-alt .roadmap-carousel-s2:before { background: linear-gradient(90deg, #49191d 0%, rgba(0, 0, 0, 0) 100%); }
+
+.roadmap-carousel-s2:after { background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #fff5f6 100%); }
+
+.bg-theme .roadmap-carousel-s2:after { background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, black 100%); }
+
+.bg-theme-alt .roadmap-carousel-s2:after { background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #f29e03 100%); }
+
+.bg-theme-dark .roadmap-carousel-s2:after { background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #36080b 100%); }
+
+.bg-theme-dark-alt .roadmap-carousel-s2:after { background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #49191d 100%); }
+
+.roadmap-carousel-s2:after { right: 40px; }
+
+.roadmap-carousel-s2:before { left: 40px; }
+
+.roadmap-carousel-container { position: relative; }
+
+.roadmap-carousel-container:before { position: absolute; content: ""; left: 0; top: 47px; width: 100%; height: 2px; background: #dee2e6; }
+
+.tc-light .roadmap-carousel-container:before { background: #f29e03; }
+
+.roadmap-carousel-nav-s2 .owl-nav { width: calc(100% + 80px); top: 26px; opacity: 1; }
+
+.roadmap-carousel-nav-s2 .owl-nav button { border: none !important; }
+
+.roadmap-carousel-nav-s2 .owl-nav button:after { font-size: 36px; line-height: 52px; color: #dee2e6; }
+
+.roadmap-carousel-nav-s2.roadmap-carousel-s2 .owl-nav { top: -7px; left: 0; width: calc(100% + 20px); }
+
+.roadmap-carousel:not([data-dots="true"]) { margin-bottom: -30px; }
+
+.roadmap-list { position: relative; padding-top: 15px; }
+
+.roadmap-list:after { position: absolute; left: 50%; bottom: 0; transform: translateX(-50%); width: 100vw; height: 1px; content: ''; background: #f29e03; }
+
+.roadmap-innr { padding: 0 25px 30px; }
+
+.roadmap-innr:before { position: absolute; left: 0; height: 100%; width: 1px; content: ''; transform: translateX(-50%); background-image: linear-gradient(to bottom, black 0%, #f29e03 100%); }
+
+.roadmap-item { position: relative; }
+
+.roadmap-item:nth-child(even) .roadmap-innr:before { background-image: linear-gradient(to top, black 0%, #f29e03 100%); }
+
+@media (min-width: 576px) { .roadmap-wrap-ovl-right { max-width: none; margin-right: -200px; }
+  .roadmap-wrap-ovl-right:after { width: 280px; }
+  .roadmap-wrap-ovl-right .owl-nav { margin-right: 190px; } }
+
+@media (min-width: 768px) { .roadmap-s5 { display: flex; text-align: right; }
+  .roadmap-s5.roadmap-right { justify-content: flex-end; text-align: left; }
+  .roadmap-s5:not(:last-child) { padding-bottom: 15px; }
+  .roadmap-wrap-s5 { max-width: 100%; }
+  .roadmap-wrap-s5:before { top: -30px; left: 50%; margin-left: -0.5px; }
+  .roadmap-step-s5 { max-width: 50%; padding-left: 30px; padding-right: 30px; }
+  .roadmap-time-s5:after { left: -39px; }
+  .roadmap-left .roadmap-time-s5:after { right: -40px; left: auto; } }
+
+@media (min-width: 992px) { .roadmap { display: flex; }
+  .roadmap-s1:before, .roadmap-s1:after { top: 41px; height: 0; width: 50%; border-top-width: 3px; border-top-style: solid; border-left-width: 0; }
+  .roadmap-s1:before { left: 0; }
+  .flex-row-reverse .roadmap-s1:before { right: 0; left: auto; }
+  .roadmap-s1:after { left: auto; right: 0; z-index: -1; }
+  .flex-row-reverse .roadmap-s1:after { right: auto; left: 0; }
+  .roadmap-s1-alt:before, .roadmap-s1-alt:after { top: 42px; border-top-width: 1px; border-top-style: dashed; }
+  .roadmap-s1-alt:after { right: 0; }
+  .roadmap-s1-alt.roadmap-done:before, .roadmap-s1-alt.roadmap-done:after { top: 41px; border-top-width: 3px; border-top-style: solid; }
+  .roadmap-s1-alt.roadmap-done:after { right: 0; left: auto; }
+  .roadmap-s1-alt.roadmap-current:before { top: 41px; border-top-width: 3px; border-top-style: solid; }
+  .roadmap-s1-alt.roadmap-current:after { top: 42px; }
+  .roadmap-s2 { display: block; }
+  .roadmap-s6 { display: block; }
+  .roadmap-s6:after { right: -14px; }
+  .roadmap-head-s6:after { position: absolute; content: ""; bottom: 100%; right: -14px; width: 1px; height: 65px; transform: translate(50%, 0); background: #fff; }
+  .roadmap-wrap { padding: 40px 0 10px; margin-bottom: 60px; max-width: 100%; }
+  .roadmap-wrap-ovl-left, .roadmap-wrap-ovl-right { max-width: none; }
+  .roadmap-wrap-s1 { padding-top: 0; }
+  .roadmap-wrap-s1:after { position: absolute; width: 15px; height: calc(100% + 3px); border-width: 3px; border-style: solid; border-color: #dee2e6; top: 41px; }
+  .tc-light .roadmap-wrap-s1:after { border-color:black; }
+  .roadmap-wrap-s1-alt:after { height: calc(100% + 1px); border-width: 1px; border-style: dashed; top: 42px; }
+  .tc-light .roadmap-wrap-s1-alt:after { border-color: rgba(255, 255, 255, 0.3); }
+  .roadmap-wrap-s1-alt.roadmap-wrap-done:after { height: calc(100% + 3px); border-width: 3px; border-style: solid; top: 41px; }
+  .roadmap-wrap-s1.roadmap-wrap-done:after { border-color: black; }
+  .roadmap-wrap-s1:nth-child(odd):after { right: -15px; border-radius: 0 20px 20px 0; border-left-width: 0; }
+  .roadmap-wrap-s1:nth-child(even):after { left: -15px; border-radius: 20px 0px 0px 20px; border-right-width: 0; }
+  .roadmap-wrap-s1:last-child:after { display: none; }
+  .roadmap-line { left: 50%; margin-left: -1px; }
+  .roadmap-left { justify-content: flex-start; margin-top: -80px; }
+  .roadmap-left .roadmap-step { margin-left: 0; margin-right: 80px; }
+  .roadmap-left .roadmap-step:before { left: auto; right: -91px; }
+  .roadmap-left .roadmap-step:after { left: auto; right: -78px; }
+  .roadmap-left.roadmap-s5 { margin-top: 0; }
+  .roadmap-right { justify-content: flex-end; }
+  .roadmap-right .roadmap-step { margin-left: 80px; }
+  .roadmap-year { height: 60px; width: 60px; line-height: 60px; font-size: 16px; position: static; margin-left: auto; margin-right: auto; }
+  .roadmap-step { width: 100%; padding: 40px 30px 35px; }
+  .roadmap-step:before, .roadmap-step:after { position: absolute; content: ''; }
+  .roadmap-step:before { left: -91px; }
+  .roadmap-step:after { width: 78px; left: -78px; }
+  .roadmap-step-list li:before { top: 12px; }
+  .roadmap-step-list-s1 li:after { left: 50%; }
+  .roadmap-step-s1 { padding-top: 0; padding-left: 15px; padding-right: 15px; }
+  .roadmap-step-s1:after { width: 0 !important; left: 50% !important; margin-left: -0.5px; height: 40px !important; top: 48px; border-top: 0; border-left: 1px solid; border-color: #dee2e6; }
+  .roadmap-s1-alt .roadmap-step-s1:after { border-left-style: dashed; }
+  .roadmap-step-s3 { padding-top: 0; background: transparent !important; }
+  .roadmap-step-s3:after { left: 50%; width: 2px; }
+  .roadmap-step-s5 { padding-top: 0; padding-bottom: 0; }
+  .roadmap-head { margin-bottom: 15px; }
+  .roadmap-time { font-size: 14px; }
+  .roadmap-time-s1:after { left: 50%; bottom: 5px; }
+  .roadmap-time-s1:before { bottom: -2px; left: 50%; }
+  .roadmap-time-s3 { font-size: .87rem; font-weight: 600; }
+  .roadmap-time-s6 { font-size: 18px; }
+  .roadmap-title { font-size: 18px; }
+  .roadmap-title-s1 { padding-top: 48px; }
+  .roadmap-title-s2 { font-size: 1rem; }
+  .roadmap-list { display: flex; align-items: flex-end; margin-bottom: 200px; }
+  .roadmap-item { flex-basis: 0; flex-grow: 1; max-width: 100%; }
+  .roadmap-item:nth-child(even) { flex-grow: 0; width: 0; }
+  .roadmap-item:nth-child(even) .roadmap-innr { position: absolute; top: 0; left: 0; padding-top: 90px; min-width: 190px; transform: translateX(calc(-50% + 5px)); }
+  .roadmap-item:nth-child(even) .roadmap-innr:before { top: 0; height: 90px; }
+  .roadmap-item-sm { min-height: 170px; }
+  .roadmap-item-lg { min-height: 300px; } }
+
+@media (min-width: 1200px) { .roadmap-left .roadmap-step:before { right: -86px; }
+  .roadmap-left .roadmap-step:after { right: -73px; }
+  .roadmap-step:before { left: -86px; }
+  .roadmap-step:after { width: 73px; left: -73px; }
+  .roadmap-step-s1:before { left: 50%; }
+  .roadmap-step-s3:after { left: 50%; width: 2px; } }
+            </style>
+            <section
+            class="section bg-theme tc-light ov-h"
+            id="roadmap"
+            style="
+              background-color: gold;
+            "
+          >
+            <div class="container">
+              <!-- Section Head @s -->
+              <div class="section-head text-center wide-auto-sm">
+                <h4
+                  class="title title-semibold animated"
+                  data-animate="fadeInUp"
+                  data-delay=".1"
+                  style="color: black; letter-spacing: 2px; font-weight: 900;font-family: 'Cormorant SC', serif;font-size: 3rem;"
+                >
+                  Roadmap
+                </h4>
+              </div>
+              <!-- .section-head @e -->
+              <!-- Block @s -->
+              <div class="nk-block">
+                <div class="row justify-content-center">
+                  <div class="col-xl-12">
+                    <div
+                      class="roadmap-all mgb-m50 animated"
+                      data-animate="fadeInUp"
+                      data-delay=".3"
+                    >
+                      <div
+                        class="
+                          roadmap-wrap roadmap-wrap-done roadmap-wrap-s1
+                          mb-0
+                        "
+                      >
+                        <div class="row no-gutters">
+                          <div class="col-lg">
+                            <div
+                              class="
+                                roadmap roadmap-s1 roadmap-done
+                                text-lg-center
+                              "
+                            >
+                              <div class="roadmap-step roadmap-step-s1">
+                                <div class="roadmap-head roadmap-head-s1">
+                                  <span class="roadmap-time roadmap-time-s1"
+                                    >Phase 1</span
+                                  >
+                                  <span class="roadmap-title roadmap-title-s1"
+                                    ><img src="https://img.icons8.com/fluency-systems-filled/6/000000/circled-dot.png"/> Create Website & Social Media <br>
+                                   <img src="https://img.icons8.com/fluency-systems-filled/6/000000/circled-dot.png"/> Fair launch <br>
+                                   <img src="https://img.icons8.com/fluency-systems-filled/6/000000/circled-dot.png"/> Memes <br>
+                                   <img src="https://img.icons8.com/fluency-systems-filled/6/000000/circled-dot.png"/> Community Building Initiatives <br>
+                                   <img src="https://img.icons8.com/fluency-systems-filled/6/000000/circled-dot.png"/> 500+ wallet holders <br>
+                                   <img src="https://img.icons8.com/fluency-systems-filled/6/000000/circled-dot.png"/> Dextools Trending <br>
+                                   <img src="https://img.icons8.com/fluency-systems-filled/6/000000/circled-dot.png"/> 1M Marketcap Goal</span
+                                  >
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- .col -->
+                          <div class="col-lg">
+                            <div
+                              class="
+                                roadmap roadmap-s1 roadmap-done
+                                text-lg-center
+                              "
+                            >
+                              <div class="roadmap-step roadmap-step-s1">
+                                <div class="roadmap-head roadmap-head-s1">
+                                  <span class="roadmap-time roadmap-time-s1"
+                                    >Phase 2</span
+                                  >
+                                  <span class="roadmap-title roadmap-title-s1"
+                                    ><img src="https://img.icons8.com/fluency-systems-filled/6/000000/circled-dot.png"/> Coin Gecko Listing <br>
+                                   <img src="https://img.icons8.com/fluency-systems-filled/6/000000/circled-dot.png"/> 10M+ Marketcap Goal <br>
+                                   <img src="https://img.icons8.com/fluency-systems-filled/6/000000/circled-dot.png"/> First audit <br>
+                                   <img src="https://img.icons8.com/fluency-systems-filled/6/000000/circled-dot.png"/> Financial article press (Yahoo, watcher, insider...) <br>
+                                   <img src="https://img.icons8.com/fluency-systems-filled/6/000000/circled-dot.png"/> Coin Market Cap Listing <br>
+                                   <img src="https://img.icons8.com/fluency-systems-filled/6/000000/circled-dot.png"/> Partnership with crypto players <br>
+                                   <img src="https://img.icons8.com/fluency-systems-filled/6/000000/circled-dot.png"/> 5,000+ Wallet Holders <br>
+                                   <img src="https://img.icons8.com/fluency-systems-filled/6/000000/circled-dot.png"/> CEX listing <br>
+                                   <img src="https://img.icons8.com/fluency-systems-filled/6/000000/circled-dot.png"/> Certik Audit</span
+                                  >
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- .col -->
+                          <div class="col-lg">
+                            <div
+                              class="
+                                roadmap roadmap-s1 roadmap-done
+                                text-lg-center
+                              "
+                            >
+                              <div class="roadmap-step roadmap-step-s1">
+                                <div class="roadmap-head roadmap-head-s1">
+                                  <span class="roadmap-time roadmap-time-s1"
+                                    >Phase 3</span
+                                  >
+                                  <span class="roadmap-title roadmap-title-s1"
+                                    ><img src="https://img.icons8.com/fluency-systems-filled/6/000000/circled-dot.png"/> 100M Marketcap Goal <br>
+                                   <img src="https://img.icons8.com/fluency-systems-filled/6/000000/circled-dot.png"/> Massive Community Giveaways <br>
+                                   <img src="https://img.icons8.com/fluency-systems-filled/6/000000/circled-dot.png"/> 10,000+ Wallet Holders <br>
+                                   <img src="https://img.icons8.com/fluency-systems-filled/6/000000/circled-dot.png"/> 100+M Marketcap Goal</span
+                                  >
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- .col -->
+                         
+                          <!-- .col -->
+                        </div>
+                        <!-- .row -->
+                      </div>
+                 
+                      
+                    </div>
+                  </div>
+                  <!-- .col -->
+                </div>
+                <!-- .row -->
+              </div>
+              <!-- .block @e -->
+            </div>
+            <div class="nk-ovm shape-n"></div>
+          </section>
 
             <section class="section-alt tc-light py-0 ov-h" id="ico" style="background-image: url('./BACKGROUND.webp');background-position: center;background-size: cover;background-repeat: no-repeat;">
                 <div class="container" style="padding: 50px 0;">
@@ -189,12 +802,16 @@
                                 <!-- Section Head @s -->
                                 <div class="cpn-action" style="display: flex; justify-content:space-evenly;align-items: center;">
                            
-                              <div class="cpn-btns animated" data-animate="fadeInUp" data-delay="1" style="visibility: visible; ">
-                                <a href=""><img style="margin:0" src="https://img.icons8.com/ios-filled/50/000000/telegram-app.png"></a>
-                            </div>
+                                    <div class="cpn-btns animated fadeInUp" data-animate="fadeInUp" data-delay="1.2" style="visibility: visible; animation-delay: 1s;">
+                                        <a href="https://t.me/Thegoldendog"><img style="margin:0" src="https://img.icons8.com/color/50/000000/usa.png"><img style="margin:0" src="https://img.icons8.com/ios-filled/50/000000/telegram-app.png"></a>
+                                        </div>
                             <div class="cpn-btns animated" data-animate="fadeInUp" data-delay="1.1" style="visibility: visible; ">
-                                <a href=""><img style="margin:0" src="https://img.icons8.com/glyph-neue/50/000000/twitter.png"></a>
+                                <a href="https://twitter.com/TheGoldenDogETH"><img style="margin:0" src="https://img.icons8.com/glyph-neue/50/000000/twitter.png"></a>
+                                
                           </div>
+                          <div class="cpn-btns animated fadeInUp" data-animate="fadeInUp" data-delay="1.3" style="visibility: visible; animation-delay: 1.2s;">
+                            <a href="https://t.me/TheGoldenDogChina"><img style="margin:0" src="https://img.icons8.com/ios-filled/50/000000/telegram-app.png"><img style="margin:0" src="https://img.icons8.com/color/48/000000/china.png"></a>
+                            </div>
                            <!-- <div class="cpn-btns animated" data-animate="fadeInUp" data-delay="1.2" style="visibility: visible; "> </div> -->
                   
                                 
@@ -225,7 +842,7 @@
                         <div class="row justify-content-center text-center">
                             <div class="col-lg-6 col-md-9">
                                 <div class="wide-auto-sm section-head section-head-sm pdb-r">
-                                    <h4 class="title title-md animated" data-animate="fadeInUp" data-delay="1.2"  style="font-family: slidefu;"> Copyright<img src="https://img.icons8.com/color/20/FFFFFF/creative-commons-all-rights-reserved.png"/> <span style="color: yellow;"> The Golden Dog</span> 2022</h4>
+                                    <h4 class="title title-md animated" data-animate="fadeInUp" data-delay="1.2"  style="font-family: 'Cormorant SC', serif;"> Copyright<img src="https://img.icons8.com/color/20/FFFFFF/creative-commons-all-rights-reserved.png"/> <span style="color: yellow;"> The Golden Dog</span> 2022</h4>
                                 </div>
                              
                             </div>

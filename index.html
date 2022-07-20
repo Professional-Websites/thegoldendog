@@ -73,17 +73,75 @@
                                         <div class="banner-caption wide-auto text-center text-lg-left">
                                             <div class="cpn-head mt-0">
                                                 <h1 class="title title-semibold text-center animated" data-animate="fadeInUp" data-delay="0.9"  style="color:yellow;
-                                                font-family: 'Cormorant SC', serif; ">The Golden Dog <br><span> $GOLD </span></h1>
+                                                font-family: 'Cormorant SC', serif; ">The Golden Dog <br><span> $DOG </span></h1>
                                             </div>
                                          
                                             <div class="cpn-btns text-center animated" data-animate="fadeInUp" data-delay="1" >
                                                 <ul class="btn-grp text-center">
-                                                    <li><a style="background: yellow;color: black;font-weight: 900;" href="#" class="btn btn-md btn-grad btn-round">Buy Now</a></li>
+                                                    <li><a style="background: yellow;color: black;font-weight: 900;" href="https://copperlaunch.com/pools/0xaa49b8707B07429bdDb426f59770df0E05632ac3" class="btn btn-md btn-grad btn-round">Buy On CopperLaunch</a></li>
                                                     <li><a style="background: yellow;color: black;font-weight: 900;" href="#" class="btn btn-md btn-grad btn-grad-alternet btn-round">Chart</a></li>
                                                 
                                                 </ul>
                                             </div>
-                                      
+                                            <div class="copyclip" style="display: flex;justify-content: center;align-items: center;flex-direction: column;width: 100%;">
+                                                <h1 style="font-size: 1.2rem;margin-top: 30px;">Copy to clipboard</h1>
+<button contenteditable="false" class="text-center col-lg-12" style="width: 100%;">0x47d920a911cb9a0ad4618698ba3fef800abc868d</button>
+                                            </div>
+                                      <style>
+.copyclip button {
+  cursor: pointer;
+
+  background: red;
+  border: 6px gold;
+  border-style: dashed solid;
+  color: black;
+  transition: 200ms;
+}
+
+.copyclip button:hover {
+  filter: brightness(1.05);
+  transform: translateY(-5px);
+  box-shadow: 0px 30px 200px rgba(255, 255, 255, 0.7);
+}
+
+.copyclip button:focus {
+  outline: 4px solid gold;
+}
+
+.copyclip button:active {
+  transform: skew(-2deg) rotate(2deg);
+}
+
+.copyclip span {
+  position: absolute;
+  top: 80vh;
+  margin: 2rem 0;
+  font-size: 1.7rem;
+  color: #f5f4ee;
+}
+
+                                      </style>
+                                      <script>
+                                        async function copyTargetText(e) {
+  try {
+    await navigator.clipboard.writeText(e.target.innerText);
+  } catch (err) {
+    console.error("Failed to copy: ", err);
+  }
+}
+
+document.querySelector("button").addEventListener("click", (e) => {
+  e.preventDefault();
+  copyTargetText(e);
+  const copyAlert = document.createElement("span");
+  copyAlert.innerText = `"${e.target.innerText}" copied to clipboard`;
+  document.body.appendChild(copyAlert);
+  setTimeout(() => {
+    document.body.removeChild(copyAlert);
+  }, 1500);
+});
+
+                                      </script>
                                         </div>
                                     </div><!-- .col -->
                                 </div><!-- .row -->
@@ -105,7 +163,7 @@
                             <div class="col-sm-12 col-md-12 text-center">
                                 <!-- Section Head @s -->
                                 <div class="nk-block-text" style="display: flex;justify-content: center;">
-                                    <h4 class="title title-lg text-center animated" data-animate="fadeInUp" data-delay="1"  style="font-family: 'Cormorant SC', serif;width: 75%;text-align: center;">"Trust in   <span style="font-size: 2.2rem;color:yellow;font-weight: 900;"> The Golden Dog"</span> </h4>
+                                    <h4 class="title title-lg text-center animated" data-animate="fadeInUp" data-delay="1"  style="font-family: 'Cormorant SC', serif;width: 75%;text-align: center;">Trust in   <span style="font-size: 2.2rem;color:yellow;font-weight: 900;"> The Golden Dog</span> </h4>
                                  
                                 </div>
                             </div>
@@ -759,13 +817,13 @@
                                 <!-- Section Head @s -->
                                 <div class="cpn-action" style="display: flex; justify-content: space-around;align-items: center;">
                                     <div class="cpn-btns animated" data-animate="fadeInUp" data-delay="0.4" style="visibility: visible; ">
-                                  <a href=""><img style="margin:0" src="https://img.icons8.com/ios-filled/50/000000/github.png"></a>
+                                  <a href="https://github.com/TheGoldenDog"><img style="margin:0" src="https://img.icons8.com/ios-filled/50/000000/github.png"></a>
                                   </div>
                                   <div class="cpn-btns animated" data-animate="fadeInUp" data-delay="0.5" style="visibility: visible; ">
-                                <a href=""><img style="margin:0" src="https://img.icons8.com/ios-filled/50/000000/mail.png"></a>
+                                <a href="mailto:hello@thegoldendog.com"><img style="margin:0" src="https://img.icons8.com/ios-filled/50/000000/mail.png"></a>
                                 </div>
                                 <div class="cpn-btns animated" data-animate="fadeInUp" data-delay="0.6" style="visibility: visible; ">
-                              <a href=""><img style="margin:0" src="https://img.icons8.com/ios-filled/50/000000/medium-logo.png"></a>
+                              <a href="https://medium.com/@GoldenDogCommunity"><img style="margin:0" src="https://img.icons8.com/ios-filled/50/000000/medium-logo.png"></a>
                               </div>
                        
                          

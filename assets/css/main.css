@@ -3687,7 +3687,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 /** 04.03 Blocks */
 .nk-block { display: block; width: 100%; position: relative; z-index: 1;}
-#roadmap .nk-block{height: 100vh;}
+
 
 
 .nk-block ~ .nk-block { padding-top: 40px; }
